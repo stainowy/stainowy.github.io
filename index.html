@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stainowy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-sun"></i>
+    </div>
+
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active" data-page="home">Home</a></li>
+                    <li><a href="#" data-page="projects">Projects</a></li>
+                    <li><a href="#" data-page="contact">Contact</a></li>
+                </ul>
+                <div class="underline"></div>
+            </nav>
+        </header>
+
+        <section id="home" class="content-section">
+            <!-- Profilowe zdjęcie z zaokrąglonymi rogami i rozmiarem 118x118 -->
+            <div class="profile-pic">
+                <img src="profile.png" alt="Profile Picture">
+            </div>
+            <h1 style="font-size: 24px;">Stainowy</h1>
+            <h2 style="font-size: 14px;">Junior Developer & Freelancer</h2>
+            <p>My name is Stainowy, well maybe it's not my name, but that's what they call me. I'm interested in programming, self-improvement, physics. I've been able to program for a good few years now. I mainly use Python and html, javascript and lua, but I feel good enough in them to say that I know them. I have enough skills to create this website haha. I develop myself every day and work on many projects...</p>
+            <div class="social-media">
+                <a href="https://discord.com/users/1168212040737890404" class="icon" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                <a href="https://github.com/stainowy" class="icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.tiktok.com/@stainowy" class="icon" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/channel/UC71LIYFQHodbjBnsK2bEtpQ" class="icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section hidden">
+            <h1>Projects</h1>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3><a href="https://dsc.gg/swizzybio">Swizzy</a></h3>
+                    <p>Swizzy is a modern project offering various services, programs and applications. The main Swizzy service is among others SwizzyBot and System Swizzy Accounts</p>
+                </div>
+                <div class="project-item">
+                    <h3><a href="https://dsc.gg/swizzybot">SwizzyBot</a></h3>
+                    <p>SwizzyBot is an application on the discord service that offers a huge amount of commands, modules and functions that are easy to configure and quick help</p>
+                </div>
+                <div class="project-item">
+                    <h3><a href="https://stainowy.github.io">More Soon...</a></h3>
+                    <p>I will publish more projects here in the near future :3</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section hidden">
+            <h1>Contact</h1>
+            <div class="contact-list">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:stainowy@proton.me">stainowy@proton.me</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Discord DMs</h3>
+                    <p><a href="https://discord.com/users/1168212040737890404">@stainowy</a></p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; Stainowy 2024</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
